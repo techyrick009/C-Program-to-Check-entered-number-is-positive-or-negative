@@ -1,0 +1,43 @@
+
+/*
+ *  Author: Techyrick.com
+ */
+
+#include<stdio.h> 
+//#include 
+
+
+
+void main() {
+
+int number;
+
+  
+
+//clrscr();
+
+    printf("C Program Check Entered Number is Positive or Negative");
+
+    printf("\n\n Enter a number : ");
+    scanf("%i", &number);
+
+    if(number > 0) {
+      printf("\n\n Entered number %d is a positive number ",number);  
+        
+    }
+    else if(number < 0) {
+         printf("\n\n Entered number %d is a negative number ",number);  
+        
+    }
+    
+    else {
+        //number == 0
+         printf("\n\n Entered number %d is neither positive nor negative ",number);
+    }
+
+    
+//getch();
+
+
+}
+
